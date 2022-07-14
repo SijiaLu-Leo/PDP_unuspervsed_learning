@@ -32,8 +32,9 @@ a unsupervised learning network for 10-target-mstar datasets
 | ZIL-131 | E12        | 17         | 299        | 15         | 274        |
 | ZSU-234 | d08        | 17         | 299        | 15         | 274        |
 
-### Training Set (Depression: 17$\degree$)
+##### Training Set (Depression: 17$\degree$)
 
+```shell
 MSTAR-PublicTargetChips-T72-BMP2-BTR70-SLICY/MSTAR_PUBLIC_TARGETS_CHIPS_T72_BMP2_BTR70_SLICY
 ├ TARGETS/TRAIN/17_DEG
 │    ├ BMP2/SN_9563/*.000 (233 images)
@@ -54,7 +55,11 @@ MSTAR-PublicMixedTargets-CD2/MSTAR_PUBLIC_MIXED_TARGETS_CD2
 │        └ ZSU_23_4/*.026       (299 images)
 └ ...
 
-### Test Set (Depression: 15$\degree$)
+```
+
+##### Test Set (Depression: 15$\degree$)
+
+```shell
 MSTAR-PublicTargetChips-T72-BMP2-BTR70-SLICY/MSTAR_PUBLIC_TARGETS_CHIPS_T72_BMP2_BTR70_SLICY
 ├ TARGETS/TEST/15_DEG
 │    ├ BMP2/SN_9563/*.000 (195 images)
@@ -74,3 +79,5 @@ MSTAR-PublicMixedTargets-CD1/MSTAR_PUBLIC_MIXED_TARGETS_CD1
 │        ├ ZIL131/*.025         (274 images)
 │        └ ZSU_23_4/*.026       (274 images)
 └ ...
+
+```
